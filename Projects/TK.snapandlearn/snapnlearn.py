@@ -98,8 +98,8 @@ def main():
     st.title("Welcome to SnapNLearn!")
 
     # Subtitle
-    st.write('Upload an existing photo by selecting "Browse Files" or upload a \
-             new photo by selecting "take photo" below.')
+    st.write(f'Upload an existing photo by selecting **Browse Files** or upload a \
+             new photo by selecting **Take Photo** below')
 
     # Creates a widget that allows users to upload images.
     uploaded_file = st.file_uploader("Upload a photo", type=["jpg", "jpeg", "png"])
@@ -120,7 +120,7 @@ def main():
 
     # Display the image if one is uploaded or taken
     if image is not None:
-        st.image(image, caption = "User uploaded photo")
+        st.image(image, caption = "Your photo")
 
         # Analyze the image after user clicks button
         if st.button("Analyze photo"):
@@ -130,11 +130,6 @@ def main():
                     st.subheader("Analysis Result:")
                     st.success("Analysis complete!")
                     st.write(analysis_result)
-
-        # Add a Reset button that doesn't work
-        if st.button("Reset"):
-            st.session_state.clear() # Is this necessary? Clears the session state
-            st.rerun() # Rerun the app
 
 
 # If name is equal to main: run the main function

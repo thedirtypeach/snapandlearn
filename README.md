@@ -33,6 +33,12 @@ Welcome to **TK.Main**! This repository marks the beginning of an exciting journ
   - A GitHub account with access to this repository (with proper permissions).
   - A corresponding SSH key for authentication.
 
+### **February 13th, 2025 – Peach and Wizard**
+- Added the [**TK.snapandlearn**](/Projects/TK.snapandlearn/) project.
+  - Project is currently in MVP state.
+- Added [Projects](/Projects/) folder to provide better structure for projects.
+- Created and linked a kanban board (project management board): [TK.Board](https://github.com/users/JustKeagsTheWizard/projects/2).
+
 ---
 
 ## 🛠️ Setup Instructions
