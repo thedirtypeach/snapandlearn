@@ -1,17 +1,18 @@
 <!--
-Keagan, I deleted the original text you had here.
-
-This website kicks ass for testing out how your "readme.md" file
-will look: [stackedit.io](https://stackedit.io/app#)
-
-It's designed for testing markdown... which Streamlit supports!
+README.md file intended to outline scope of the projects being
+worked on as well as to serve as a changelog... for now.
 -->
+
+<a id="readme-top"></a>
 
 # TK.Main
 
-Welcome to **TK.Main**! This repository marks the beginning of an exciting journey to build something amazing—or fail spectacularly while learning valuable lessons along the way. Either way, it's going to be a great experience!
+Welcome to **TK.Main**!
+
+This Github repository serves as a working directory to organize and co-develop various tools to improve comprehension of development, cyber security, networking, cloud, and project management.
 
 ---
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📅 Timeline
 
@@ -33,7 +34,14 @@ Welcome to **TK.Main**! This repository marks the beginning of an exciting journ
   - A GitHub account with access to this repository (with proper permissions).
   - A corresponding SSH key for authentication.
 
+### **February 13th, 2025 – Peach and Wizard**
+- Added the [**TK.snapandlearn**](/Projects/TK.snapandlearn/) project.
+  - Project is currently in MVP state.
+- Added [Projects](/Projects/) folder to provide better structure for projects.
+- Created and linked a kanban board (project management board): [TK.Board](https://github.com/users/JustKeagsTheWizard/projects/2).
+
 ---
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠️ Setup Instructions
 
@@ -45,33 +53,39 @@ If you're invited to this project, here's how to get started:
 
 2. **Connect GitHub via SSH**:
    - Generate an SSH key using the command:
-     ```bash
+     ```sh
      ssh-keygen -t ed25519 -C "your_email@example.com"
      ```
    - Add the key to your SSH agent:
-     ```bash
+     ```sh
      eval "$(ssh-agent -s)"
      ssh-add ~/.ssh/id_ed25519
      ```
+    - If you receive the `Permissions for '/root/.ssh/id_ed25519/' are too open` error: run the following command to correct the permissions for the file.
+      ```sh
+      chmod 600 ~/.ssh/id_ed25519
+      ```
    - Copy the SSH key to your clipboard:
-     ```bash
-     cat ~/.ssh/id_ed25519.pub
+     ```sh
+     cat ~/.ssh/id_ed25519
      ```
    - Add the SSH key to your [GitHub](https://github.com/settings/keys) account under **Settings > SSH and GPG keys**.
 
 3. **Optional: Sign Commits with GPG**:
    - Generate a GPG key if you don’t have one:
-     ```bash
+     ```sh
      gpg --full-generate-key
      ```
    - Add the GPG key to your [GitHub](https://github.com/settings/keys) account under **Settings > SSH and GPG keys**.
    - Configure Git to use the GPG key:
-     ```bash
+     ```sh
      git config --global user.signingkey YOUR_GPG_KEY_ID
      git config --global commit.gpgsign true
      ```
 
 ---
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Goals
 
@@ -82,19 +96,22 @@ If you're invited to this project, here's how to get started:
 
 ---
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🤝 Contributing
 
 If you'd like to contribute to this project, feel free to:
-1. Fork the repository (you may have to request access from The Wizard).
-2. Create a new branch for your feature or bug fix.
-3. Submit a pull request with a detailed description of your changes.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is closed-source and not available to the general public.
 
 ---
-
-Let’s BUILD SOMETHING! 🎉🎉🎉
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
