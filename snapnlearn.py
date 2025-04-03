@@ -62,6 +62,7 @@ def analyze_photo(image):
 
     # Initialize api_url to OpenAI API endpoint for GPT-4 with Vision.
     api_url = "https://api.openai.com/v1/chat/completions"
+    #api_url = "https://api.deepseek.com/v1/chat/completions"
 
     # Create the payload
     payload = {

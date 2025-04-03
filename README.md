@@ -9,7 +9,7 @@ worked on as well as to serve as a changelog... for now.
 
 Welcome to **TK.Main**!
 
-This Github repository serves as a working directory to organize and co-develop various tools to improve comprehension of development, cyber security, networking, cloud, and project management.
+This Github repository is dedicated to helping users familiarize themselves with developing web applications with Python by leveraging a web application hosting framework, Streamlit.
 
 ---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
