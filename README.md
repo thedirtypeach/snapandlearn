@@ -5,9 +5,9 @@ worked on as well as to serve as a changelog... for now.
 
 <a id="readme-top"></a>
 
-# TK.Main
+# SnapandLearn
 
-Welcome to **TK.Main**!
+Welcome to **SnapandLearn**!
 
 This Github repository is dedicated to helping users familiarize themselves with developing web applications with Python by leveraging a web application hosting framework, Streamlit.
 
